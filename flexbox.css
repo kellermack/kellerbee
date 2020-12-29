@@ -1,0 +1,17 @@
+.container {
+    display: grid;
+    grid-template-columns: 60px 60px 60px 60px 60px;
+    grid-template-rows: 30px 30px;
+    grid-auto-flow: row;
+  }
+
+  .Varroa {
+    grid-column: 1;
+    grid-row: 1 / 3;
+  }
+
+ .Varroa{
+      background-image: url("varroa-destructor-mite.jpg");
+      height: 90%;
+      width: 90%;
+  }
