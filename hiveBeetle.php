@@ -14,7 +14,7 @@
 </head>
 <body>
 	
-<a href="index.html"><img src="honeycomb.png" alt="Bee hive" width="5%" height="5%"></a>
+<a href="index.php"><img src="honeycomb.png" alt="Bee hive" width="5%" height="5%"></a>
  <div class="beetle">
     <h1>The Small Hive Beetle.</h1>
     <p>The Small Hive Beetle, I hate these things. These small insects

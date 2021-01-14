@@ -11,3 +11,19 @@ a{
     color: red;
 }
 
+textarea{
+    width: 400px;
+    height: 80px;
+    background-color: #fff;
+    resize: none;
+}
+
+button{
+    width: 100px;
+    height: 30px;
+    background-color: darkgray;
+    border: none;
+    color: #fff;
+    font-family: arial;
+    font-weight: 400;
+}
