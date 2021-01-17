@@ -1,0 +1,15 @@
+body{
+    background: linear-gradient(90deg, rgba(0,18,36,1) 0%, rgba(93,95,99,1) 58%, 
+    rgba(83,97,118,1) 69%, rgba(56,103,171,1) 100%);
+    color: seashell;
+    font-size: 27px;
+    }
+
+    h1{
+        text-align: center;
+        position: relative;
+    }
+
+    img{
+        border-radius: 75%;
+    }
