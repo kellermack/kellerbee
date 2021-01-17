@@ -29,7 +29,7 @@
     <img src="beetle.jpeg" alt="Hive Beetle">
     <h2>What is a hive beetle?</h2>
     <p>
-        The small hive beetle (Aethina tumida) is a beekeeping pest.It is endemic to 
+        The small hive beetle (Aethina Tumida) is a beekeeping pest.It is endemic to 
         sub-Saharan Africa, 
         but has spread to many other locations, including North America, 
         Australia, and the Philippines.The small hive beetle can be a destructive
