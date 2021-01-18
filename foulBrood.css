@@ -1,3 +1,10 @@
+html{
+    background: linear-gradient(90deg, rgba(0,18,36,1) 0%, rgba(93,95,99,1) 58%, 
+    rgba(83,97,118,1) 69%, rgba(56,103,171,1) 100%);
+    color: seashell;
+    font-size: 27px;
+    }
+
 table, th, td {
     border: 1px solid black;
 }
@@ -8,9 +15,3 @@ table, th, td {
     margin-right: auto;
 }
 
-html{
-    background: linear-gradient(90deg, rgba(0,18,36,1) 0%, rgba(93,95,99,1) 58%, 
-    rgba(83,97,118,1) 69%, rgba(56,103,171,1) 100%);
-    color: seashell;
-    font-size: 27px;
-    }
