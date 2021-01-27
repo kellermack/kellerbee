@@ -8,6 +8,7 @@
 </head>
 <body>
     <a href="index.php"><img src="honeycomb.png" alt="Bee hive" width="5%" height="5%"></a>
+    <h3>Back to the Hive!!</h3>
     <h1>Bears and....Skunks?!</h1>
     
     <h2>Bears</h2>
