@@ -38,4 +38,5 @@ echo "<form>
 
 </form>";
 ?>
+<footer>&copy; Copyright 2021 kellerbee.com</footer>
 </html>

@@ -83,4 +83,5 @@ echo "<form>
 </form>";
 ?>
 </body>
+<footer>&copy; Copyright 2021 kellerbee.com</footer>
 </html>
