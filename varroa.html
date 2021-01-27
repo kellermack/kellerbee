@@ -8,6 +8,7 @@
 </head>
 <body>
     <a href="index.php"><img src="honeycomb.png" alt="Bee hive" width="5%" height="5%"></a>
+    <h3>Back to the Hive!!</h3>
     <h1>Varroa Destructor <span>These things suck(literally)</span></h1>
     <p>
         The Varroa Destructor, or Varroa Mite is singlehandly the reason for most
@@ -68,4 +69,14 @@
     </p>
 
 </body>
+<?php
+echo "<form>
+    <input type='hidden' name='uid' value='Anonymous'>
+    <input type='hidden' name='date' value='".date('Y-m-d H:i:s')."'>
+    <textarea name='message'></textarea><br>
+    <button type='submit' name='submit'>Comment</button>
+
+</form>";
+?>
+<footer>&copy; Copyright 2021 kellerbee.com</footer>
 </html>

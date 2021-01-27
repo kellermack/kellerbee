@@ -64,4 +64,14 @@
     <h3>Stonebrood Cells</h3>
     <img src="stonebrood.jpeg" alt="stonebrood">
 </body>
+<?php
+echo "<form>
+    <input type='hidden' name='uid' value='Anonymous'>
+    <input type='hidden' name='date' value='".date('Y-m-d H:i:s')."'>
+    <textarea name='message'></textarea><br>
+    <button type='submit' name='submit'>Comment</button>
+
+</form>";
+?>
+<footer>&copy; Copyright 2021 kellerbee.com</footer>
 </html>
