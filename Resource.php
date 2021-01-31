@@ -8,19 +8,20 @@
 </head>
 
 <body>
-
-<a href="index.php"><img src="Images/honeycomb.png" class="image1" alt="Bee hive"></a>
+    
+<div>
+<a href="index.php"><img src="Images/honeycomb.png" alt="Bee hive" class="image1"></a>
 <h4>Back to the Hive!!</h4>  
-
+</div>
 <h1>Click a picture to learn more!</h1>
 
     <section class="container">
-     <a href="varroa.php"><img src="Images/varroadestructormite.jpeg"></a>
-     <a href="hiveBeetle.php"><img src="Images/hiveBeetle.jpeg"></a>
-     <a href="foulBrood.php"><img src="Images/foulbrood.jpeg"></a>   
-     <a href="statePrograms.html"><img src="Images/unitedStates.jpeg"></a>   
-     <a href="waxMoth.php"><img src="Images/waxMoth.jpeg"></a>
-     <a href="bearsandskunks.php"><img src="Images/skunkBear.jpeg"></a>
+     <a href="varroa.php"><img src="Images/varroadestructormite.jpeg" class="image2"></a>
+     <a href="hiveBeetle.php"><img src="Images/hiveBeetle.jpeg" class="image2"></a>
+     <a href="foulBrood.php"><img src="Images/foulbrood.jpeg" class="image2"></a>   
+     <a href="statePrograms.html"><img src="Images/unitedStates.jpeg" class="image2"></a>   
+     <a href="waxMoth.php"><img src="Images/waxMoth.jpeg" class="image2"></a>
+     <a href="bearsandskunks.php"><img src="Images/skunkBear.jpeg" class="image2"></a>
     </section>
 
 

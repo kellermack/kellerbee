@@ -2,6 +2,11 @@ body{
     background-color: bisque;
 }
 
+.image1 {
+    width: 50px;
+    height: 100px;
+}
+
 .container {
     display: flex;
     flex-wrap: wrap;
@@ -11,29 +16,12 @@ body{
     flex-direction: row;
     width: 90%;
     height: 800px;
-       }
+}
 
-img {
+.image2 {
     height: 350px;
     width: 550px;
     border-radius: 75%;
 }
 
-h3{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 auto;
-    flex-direction: row;
-}
 
-span{
-    width:5%;
-    height:5%;
-}
-
-.image1{
-    width: 5%;
-    height: 5%;
-}

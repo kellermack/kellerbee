@@ -7,7 +7,7 @@
     <title>The Varroa Mite </title>
 </head>
 <body>
-    <a href="index.php"><img src="honeycomb.png" alt="Bee hive" width="5%" height="5%"></a>
+    <a href="index.php"><img src="Images/honeycomb.png" alt="Bee hive" width="5%" height="5%"></a>
     <h3>Back to the Hive!!</h3>
     <h1>Varroa Destructor <span>These things suck(literally)</span></h1>
     <p>
