@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="foulBrood.css">
 </head>
 <body>
-    <a href="index.php"><img src="honeycomb.png" alt="Bee hive" width="5%" height="5%"></a>
+    <a href="index.php"><img src="Images/honeycomb.png" alt="Bee hive" width="5%" height="5%"></a>
     <h1>Something Smells Foul</h1>
     <p>FoulBrood, 4 different diseases that directly attack brood chambers of bee hives.
         Consisting of American Foulbrood, European Foulbrood, Chalkbrood and Stonebrood.
@@ -39,9 +39,9 @@
        
     </table>
     <h3>American Foul Brood</h3>
-    <img src="americanFoulbrood.jpeg" alt="foulbrood">
+    <img src="Images/americanFoulbrood.jpeg" alt="foulbrood">
     <h3>European FoulBrood</h3>
-    <img src="EuropeanFoulBrood.jpeg" alt="Euro Foulbrood">
+    <img src="Images/EuropeanFoulBrood.jpeg" alt="Euro Foulbrood">
     <h2>Treatments</h2>
     <p>A majority of states by law require you to contact the state beekeepers association
         to report foulbrood. With the spores able to be viable for nearly 80 years the only real solution
@@ -54,7 +54,7 @@
         and treating Chalkbrood.
     </p>
     <h3>ChalkBrood Larvae</h3>
-    <img src="Chalkbrood.jpeg" alt="chalkbrood">
+    <img src="Images/Chalkbrood.jpeg" alt="chalkbrood">
     <h2>Stonebrood</h2>
     <p>Not as common as other fungal diseases, can be somewhat difficult to identify in early stages.
         Can form a collar like ring around the head of the larvae, after death they turn black and 
@@ -62,7 +62,7 @@
         of the larvae that are infected by the fungal spores.
     </p>
     <h3>Stonebrood Cells</h3>
-    <img src="stonebrood.jpeg" alt="stonebrood">
+    <img src="Images/stonebrood.jpeg" alt="stonebrood">
 </body>
 <?php
 echo "<form>

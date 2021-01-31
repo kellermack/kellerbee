@@ -27,3 +27,8 @@ h3{
     margin: 0 auto;
     flex-direction: row;
 }
+
+.hive{
+    width:"5%";
+    height:"5%";
+}

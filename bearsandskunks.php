@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="bearsandskunks.css">
 </head>
 <body>
-    <a href="index.php"><img src="honeycomb.png" alt="Bee hive" width="5%" height="5%"></a>
+    <a href="index.php"><img src="Images/honeycomb.png" alt="Bee hive" width="5%" height="5%"></a>
     <h3>Back to the Hive!!</h3>
     <h1>Bears and....Skunks?!</h1>
     
@@ -34,7 +34,7 @@
         a skunk is the stomach, and if your bee hive isn't high enough off the ground the skunk doesnt 
         have to stand and the bees can never reach that area. 
     </p>
-    <img src="skunks.jpeg" alt="skunk">
+    <img src="Images/skunks.jpeg" alt="skunk">
     <h2>How to stop a skunk</h2>
     <p>Skunks can be halted by fences, just like bears an electric one would work better but it
         has been observed that skunks can burrow underneath the fences to get to the hive. So 
@@ -43,7 +43,7 @@
         will use carpet strips with tacks to deter the skunk. If they are put on the front of the hive
         with tacks facing out the skunk will be poked and possibly give up the attempt at hurting the hive.
     </p>
- <img src="bearAttack.jpg" alt="bear">   
+ <img src="Images/bearAttack.jpg" alt="bear">   
 </body>
 <?php
 echo "<form>

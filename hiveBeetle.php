@@ -14,7 +14,7 @@
 </head>
 <body>
 	
-<a href="index.php"><img src="honeycomb.png" alt="Bee hive" width="5%" height="5%"></a>
+<a href="index.php"><img src="Images/honeycomb.png" alt="Bee hive" width="5%" height="5%"></a>
  <div class="beetle">
     <h1>The Small Hive Beetle.</h1>
     <p>The Small Hive Beetle, I hate these things. These small insects
@@ -26,7 +26,7 @@
         have to keep these things out. 
     </p>
     <br>
-    <img src="beetle.jpeg" alt="Hive Beetle">
+    <img src="Images/beetle.jpeg" alt="Hive Beetle">
     <h2>What is a hive beetle?</h2>
     <p>
         The small hive beetle (Aethina Tumida) is a beekeeping pest.It is endemic to 
