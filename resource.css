@@ -19,16 +19,4 @@ img {
     border-radius: 75%;
 }
 
-h3{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0 auto;
-    flex-direction: row;
-}
 
-span{
-    width:5%;
-    height:5%;
-}

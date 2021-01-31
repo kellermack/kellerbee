@@ -8,10 +8,10 @@
 </head>
 
 <body>
-<span>
+
 <a href="index.php"><img src="Images/honeycomb.png" alt="Bee hive"></a>
 <h4>Back to the Hive!!</h4>  
-</span>
+
 <h1>Click a picture to learn more!</h1>
 
     <section class="container">
@@ -22,14 +22,7 @@
      <a href="waxMoth.php"><img src="Images/waxMoth.jpeg"></a>
      <a href="bearsandskunks.php"><img src="Images/skunkBear.jpeg"></a>
     </section>
-<!--- --
-<h3>Varroa Mites</h3>
-<h3>Hive Beetles</h3>
-<h3>Foul Broods</h3>
-<h3>State Programs</h3>
-<h3>Wax Moths</h3>
-<h3>Skunks & Bears</h3>
----->
+
 <footer>&copy; Copyright 2021 kellerbee.com</footer>
 </body>
 </html>
