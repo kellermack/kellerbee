@@ -9,7 +9,7 @@
 
 <body>
 
-<a href="index.php"><img src="Images/honeycomb.png" alt="Bee hive"></a>
+<a href="index.php"><img src="Images/honeycomb.png" class="image1" alt="Bee hive"></a>
 <h4>Back to the Hive!!</h4>  
 
 <h1>Click a picture to learn more!</h1>
@@ -23,6 +23,7 @@
      <a href="bearsandskunks.php"><img src="Images/skunkBear.jpeg"></a>
     </section>
 
-<footer>&copy; Copyright 2021 kellerbee.com</footer>
+
 </body>
+<footer>&copy; Copyright 2021 kellerbee.com</footer>
 </html>
