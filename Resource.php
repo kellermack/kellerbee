@@ -6,11 +6,12 @@
     <title>Document</title>
     <link rel="stylesheet" href="resource.css">
 </head>
+
 <body>
-<div class="hive">
+<span>
 <a href="index.php"><img src="Images/honeycomb.png" alt="Bee hive"></a>
-<h3>Back to the Hive!!</h3>  
-</div>  
+<h4>Back to the Hive!!</h4>  
+</span>
 <h1>Click a picture to learn more!</h1>
 
     <section class="container">

@@ -19,9 +19,9 @@
             </li>
             <li><a href="About.html">About</a>
             </li>
-            <li><a href="Beeginner.html">Beeginners</a>
+            <li><a href="Beeginner.php">Beeginners</a>
             </li>
-            <li><a href="Resource.html">Resources</a>
+            <li><a href="Resource.php">Resources</a>
                
             </li>
         </ul>

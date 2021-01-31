@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="aboutus.css">
 </head>
 <body>
+<a href="index.php"><img src="Images/honeycomb.png" alt="Bee hive" width="5%" height="5%"></a>
+    <h3>Back to the Hive!!</h3>
     <h1>This is for the newbees</h1>
     <p>My first (and only) bee class I took was a once a week class
         that lasted 6 weeks. It was 2 hours every Tuesday Night at the 
