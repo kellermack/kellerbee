@@ -26,7 +26,7 @@
             selling honey and other items from bees? Of course. But only commercial
             beekeepers can make a modest living from traveling the country with 
             their tractor trailers of bees. But unless you have around $300,000 to invest
-            then you arent going to be making a living of beekeeping.
+            then you aren't going to be making a living of beekeeping.
         </p>
         <li>You need to study</li>
         <p>Before you even buy your bees start studying. Read up 
@@ -37,7 +37,10 @@
             a lot to take in at first but with persistance you won't be surprised
             by anything.
         </p>
-
+        <li>Be Prepared for Loss</li>
+        <p>You will lose bees, it happens. I lost one of my new hives within
+        3 days of getting them. Swarms will happen, disease will happen and 
+        sometimes your queen will be bad and you will catch it too late. </p>
     </ul>
 
 </body>
