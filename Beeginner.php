@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>beeginners</title>
+    <link rel="stylesheet" href="aboutus.css">
 </head>
 <body>
     <h1>This is for the newbees</h1>
@@ -27,7 +28,18 @@
             their tractor trailers of bees. But unless you have around $300,000 to invest
             then you arent going to be making a living of beekeeping.
         </p>
+        <li>You need to study</li>
+        <p>Before you even buy your bees start studying. Read up 
+            on different types of honey bees. What drone brood looks like,
+            what nurse bees look like, how guard bees act. Make sure you know
+            what capped brood looks like, what capped honey look likes. Be 
+            able to identify what any and all pests an disease look like. It is 
+            a lot to take in at first but with persistance you won't be surprised
+            by anything.
+        </p>
+
     </ul>
+
 </body>
 <?php
 echo "<form>
