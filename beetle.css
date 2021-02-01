@@ -1,4 +1,4 @@
-html{
+body{
 background: linear-gradient(90deg, rgba(0,18,36,1) 0%, rgba(93,95,99,1) 58%, 
 rgba(83,97,118,1) 69%, rgba(56,103,171,1) 100%);
 color: seashell;
@@ -28,5 +28,24 @@ button{
     color: #fff;
     font-family: arial;
     font-weight: 400;
+    margin-bottom: 50px;
 }
+
+.comment-box{
+    width: 815px;
+    padding: 20px;
+    margin-bottom: 4px;
+    background-color: white;
+    border-radius: 4px;
+    color: black;
+}
+
+
+.comment-box p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: bold;
+}
+
 

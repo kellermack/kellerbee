@@ -83,6 +83,7 @@ echo "<form method ='POST' action='".setComments ($conn)."'>
     <button type='submit' name='commentSubmit'>Comment</button>
 
 </form>";
+getComments($conn)
 ?>
 </body>
 <footer>&copy; Copyright 2021 kellerbee.com</footer>
