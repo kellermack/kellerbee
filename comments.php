@@ -34,12 +34,13 @@ function getComments($conn) {
 
 function editComments($conn) {
     if (isset($_POST['commentSubmit'])) {
+       $cid = $_POST['cid']; 
        $uid = $_POST['uid'];
        $date = $_POST['date'];
        $message = $_POST['message'];
 
-       $sql = "INSERT INTO comments (uid, date, message)  
-       VALUES ('$uid', '$date', '$message')";
+       $sql = "UPDATE comments SET message= '$message' WHERE cid='$cid'";
        $result = $conn->query($sql);
+       header("Location:hivebeetle.php");
     }
 }
