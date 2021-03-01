@@ -2,6 +2,7 @@
     date_default_timezone_set('America/New_York');
     include 'database.php';
     include 'comments.php';
+    session_start();
 ?>
 
 
@@ -17,6 +18,25 @@
 <body>
 	
 <a href="index.php"><img src="Images/honeycomb.png" alt="Bee hive" width="5%" height="5%"></a>
+ <h3>Back to the hive!</h3>
+
+<?php
+    echo "<form method = 'POST' action = '".getLogin($conn)."'>
+        <input type = 'text' name = 'uid'>
+        <input type = 'password' name = 'pwd'>
+        <button type 'submit' name = 'loginSubmit'>Login</button>
+    </form>";
+    echo "<form method = 'POST' action = '".userLogout()."'>
+        <button type 'submit' name = 'logoutSubmit'>Log Out</button>
+    </form>";
+
+    if (isset($_SESSION['id'])) {
+        echo "You are logged in!";
+    } else{
+        echo "You are not logged in!";
+    }
+?>
+
  <div class="beetle">
     <h1>The Small Hive Beetle.</h1>
     <p>The Small Hive Beetle, I hate these things. These small insects
