@@ -2,6 +2,7 @@
     date_default_timezone_set('America/New_York');
     include 'database.php';
     include 'comments.php';
+    session_start();
 ?>
 
 
@@ -62,6 +63,7 @@ echo "<form method ='POST' action='".setComments ($conn)."'>
 <button type='submit' name='commentSubmit'>Comment</button>
 
 </form>";
+getComments($conn);
 ?>
 <footer>&copy; Copyright 2021 kellerbee.com</footer>
 
