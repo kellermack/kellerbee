@@ -21,6 +21,10 @@ function getComments($conn) {
             echo $row['date'];
             echo nl2br($row['message']);
         echo "</p>
+           <form class = 'delete-form' method= 'POST' action = '".deleteComments($conn)."'>
+            <input type='hidden' name='cid' value='".$row['cid']."'>
+            <button type = 'submit' name = 'commentDelete'>Delete</button>
+           </form>
             <form class = 'edit-form' method= 'POST' action = 'editcomment.php'>
                 <input type='hidden' name='cid' value='".$row['cid']."'>
                 <input type='hidden' name='uid' value='".$row['uid']."'>
@@ -45,6 +49,18 @@ function editComments($conn) {
     }
 }
 
+function deleteComments($conn){
+    if (isset($_POST['commentDelete'])) {
+        $cid = $_POST['cid']; 
+ 
+        $sql = "DELETE FROM comments WHERE cid = '$cid'";
+        $result = $conn->query($sql);
+        
+     }
+}
+
+
+/*
 function getLogin($conn) {
     if (isset($_POST['loginSubmit'])) {
         $uid = $_POST['uid'];
@@ -73,3 +89,4 @@ function userLogout() {
         exit();
     }
 }
+*/

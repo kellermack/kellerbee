@@ -2,6 +2,7 @@
     date_default_timezone_set('America/New_York');
     include 'database.php';
     include 'comments.php';
+    session_start();
 ?>
 
 <!DOCTYPE html>
@@ -72,12 +73,13 @@
 </body>
 <?php
 echo "<form method ='POST' action='".setComments ($conn)."'>
-<input type='hidden' name='uid' value='Anonymous'>
-<input type='hidden' name='date' value='".date('Y-m-d H:i:s')."'>
-<textarea name='message'></textarea><br>
-<button type='submit' name='commentSubmit'>Comment</button>
+        <input type='hidden' name='uid' value='Anonymous'>
+        <input type='hidden' name='date' value='".date('Y-m-d H:i:s')."'>
+        <textarea name='message'></textarea><br>
+        <button type='submit' name='commentSubmit'>Comment</button>
 
 </form>";
+    getComments($conn)
 ?>
 <footer>&copy; Copyright 2021 kellerbee.com</footer>
 </html>
