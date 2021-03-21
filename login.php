@@ -56,7 +56,7 @@
         <input type="checkbox" id="check">    
         <span>Remember me</span>    
         <br><br>    
-        Forgot <a href="#">Password</a>    
+        Forgot <a href="resetpassword.php">Password</a>    
     </form>     
 </div> 
 </body>
