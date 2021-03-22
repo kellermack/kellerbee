@@ -51,6 +51,8 @@ if (!mysqli_stmt_prepare($stmt, $sql)) {
 
  mail($to, $subject, $message, $headers);
 
+ header("Location: resetpassword.php?reset=success");
+
   } else {
     header("Location: index.php")
 }
