@@ -27,7 +27,7 @@
             </li> 
             <li><a href="signup.php">Sign Up</a>  
             </li>
-            <li><a href = "Storepage.php">Store</a>
+            <li><a href="Storepage.php">Store</a>
             </li>
         </ul>
         <div class="burger">
