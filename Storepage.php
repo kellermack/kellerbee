@@ -15,7 +15,7 @@
 
 <h1>Honey</h1>
 <i class="fa fa-shopping-cart"></i>
-<button style="font-size:24px">Button <i class="fa fa-shopping-cart"></i></button>
+
 
 <div class="sort">
 
