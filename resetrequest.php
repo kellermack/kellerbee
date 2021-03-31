@@ -5,7 +5,7 @@ if (isset($_POST["reset-request-submit"])) {
 $selector = bin2hex(random_bytes(8));
 $token = random_bytes(32);
 
-$url = "www.kellerbee.com/create-new-password.php?selector=" . $selector . "&vali dator=" . bin2hey($token);
+$url = "www.kellerbee.com/create-new-password.php?selector=" . $selector . "&validator=" . bin2hey($token);
 
 $expires = date("U") + 1800;
 
