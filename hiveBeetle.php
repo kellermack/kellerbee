@@ -18,8 +18,7 @@
 </head>
 <body>
 	
-<a href="index.php"><img src="Images/honeycomb.png" alt="Bee hive" width="5%" height="5%"></a>
- <h3>Back to the hive!</h3>
+ 
   
 
  <div class="beetle">
@@ -80,6 +79,9 @@
     grass.  
 </p>
 </div>
+
+<br>
+
 <?php
 echo "<form method ='POST' action='".setComments ($conn)."'>
             <input type='hidden' name='uid' value='Anonymous'>
