@@ -27,7 +27,7 @@
         and Apivar. It has been noted that the varroa  can become resistent to some
         treatments if they are used contiounssly. 
     </p>
-    <img src="beeMite.jpeg" alt="varroa">
+    <img src="BeeMite.jpeg" alt="varroa">
     <h2>How bad is my varroa count?</h2>
     <p>Their are a few methods to determine how bad the mite count is in your hive.
         <ul>

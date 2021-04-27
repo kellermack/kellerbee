@@ -53,12 +53,9 @@ if (!mysqli_stmt_prepare($stmt, $sql)) {
 
  header("Location: resetpassword.php?reset=success");
 
-  } else {
-    header("Location: index.php")
-}
-
-
-
+ } else {
+    header("Location: index.php");
+ }
 
 
 
