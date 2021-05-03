@@ -23,10 +23,10 @@
             </li>
             <li><a href="Resource.php">Resources</a>
             </li>
-            <li><a href="login.php">Login</a>
+         <!--   <li><a href="login.php">Login</a>
             </li> 
             <li><a href="signup.php">Sign Up</a>  
-            </li>
+            </li> -->
             <li><a href="Storepage.php">Store</a>
             </li>
         </ul>

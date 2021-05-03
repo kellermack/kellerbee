@@ -17,8 +17,8 @@
     
 </head>
 <body>
-	
- 
+<a href="index.php"><img src="Images/honeycomb.png" alt="Bee hive" width="5%" height="5%"></a>	
+<h3>Back to the Hive!!</h3> 
   
 
  <div class="beetle">

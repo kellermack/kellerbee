@@ -18,7 +18,7 @@
     <h3>Back to the Hive!!</h3>
     <h1>Varroa Destructor <span>These things suck(literally)</span></h1>
     <p>
-        The Varroa Destructor, or Varroa Mite is singlehandly the reason for most
+        The Varroa Destructor, or Varroa Mite is single handly the reason for most
         bee hive failures. A small mite(or tick) that feeds on honeybees and honeybee 
         larvae. Left unchecked they will decimate even the strongest of hives. Every year 
         nearly all beekeepers must treat the hives for varroa. Some do a spring and then fall
@@ -27,7 +27,7 @@
         and Apivar. It has been noted that the varroa  can become resistent to some
         treatments if they are used contiounssly. 
     </p>
-    <img src="BeeMite.jpeg" alt="varroa">
+    <img src="Images/BeeMite.jpeg" alt="varroa">
     <h2>How bad is my varroa count?</h2>
     <p>Their are a few methods to determine how bad the mite count is in your hive.
         <ul>
