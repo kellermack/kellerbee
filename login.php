@@ -1,6 +1,6 @@
 <?php
 
->
+?>
 
 
 <section class = "signup form-form">
