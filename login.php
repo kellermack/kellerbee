@@ -1,63 +1,21 @@
 <?php
-    session_start();
-    include('loginConfig.php');
-    if (isset($_POST['login'])) {
-        $username = $_POST['username'];
-        $password = $_POST['password'];
-        $query = $conn->prepare("SELECT * FROM users WHERE username=:username");
-        $query->bindParam("username", $username, PDO::PARAM_STR);
-        $query->execute();
-        $result = $query->fetch(PDO::FETCH_ASSOC);
-        if (!$result) {
-            echo '<p class="error">Username password combination is wrong!</p>';
-        } else {
-            if (password_verify($password, $result['password'])) {
-                $_SESSION['user_id'] = $result['id'];
-                echo '<p class="success">Congratulations, you are logged in!</p>';
-            } else {
-                echo '<p class="error">Username password combination is wrong!</p>';
-            }
-        }
-    }
+
+>
+
+
+<section class = "signup form-form">
+    <h2>Sign Up</h2>
+    <div class = "signup-form-form"
+    <form action = "includes/login.inc.php" method = "post"> </form>
+        <input type = "text" name = "name" placeholder = "Username/Email">
+        <input type = "password" name = "pwd" placeholder = "Password">
+        <button type = "submit" name = "submit">Login</button>
+    </div>
+    </form>
+</section>
+
+
+
+<?php
+    include 'footer.php';
 ?>
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" type="text/css" href="logincss.css"> 
-</head>
-<body>
-<a href="index.php"><img src="Images/honeycomb.png" alt="Bee hive" width="5%" height="5%"></a>
-<h3>Back to the hive!</h3>
-<h2>Login Page</h2><br>    
-    <div class="login">    
-    <form id="login" method="get" action="login.php">    
-        <label><b>User Name     
-        </b>    
-        </label>    
-        <input type="text" name="Uname" id="Uname" placeholder="Username">    
-        <br><br>    
-        <label><b>Password     
-        </b>    
-        </label>    
-        <input type="Password" name="Pass" id="Pass" placeholder="Password">    
-        <br><br>    
-        <input type="button" name="log" id="log" value="Log In Here">       
-        <br><br>    
-        <input type="checkbox" id="check">    
-        <span>Remember me</span>    
-        <br><br>    
-        <a href="resetpassword.php">Forgot Password</a>    
-    </form>     
-</div> 
-</body>
-</html>
