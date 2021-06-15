@@ -22,7 +22,7 @@ if(isset($_POST["submit"])){
         exit();
     } 
 
-    if(invalidemail($email) !== false) {
+    if(invalidEmail($email) !== false) {
         header("location:../signup.php?error=invalidemail");
         exit();
     } 
@@ -30,17 +30,12 @@ if(isset($_POST["submit"])){
         header("location:../signup.php?error=passwordsnotmatching");
         exit();
     } 
-    if(uidExists($conn, $userName) !== false) {
+    if(uidExists($conn, $userName, $email) !== false) {
         header("location:../signup.php?error=usernametaken");
         exit();
     } 
 
-    createUser();
-
-
-
-    
-
+    createUser($conn, $name, $email, $username, $pwd);
 
 
 } else{
