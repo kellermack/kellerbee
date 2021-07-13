@@ -60,33 +60,5 @@ function deleteComments($conn){
 }
 
 
-/*
-function getLogin($conn) {
-    if (isset($_POST['loginSubmit'])) {
-        $uid = $_POST['uid'];
-        $pwd = $_POST['pwd'];
 
-        $sql = "SELECT * FROM user WHERE uid ='$uid' AND pwd ='$pwd'";
-        $result = $conn->query($sql);
-        if (mysqli_num_rows($result) > 0){
-            if ($row = $result->fetch_assoc()) {
-                $_SESSION['id'] = $row['id'];
-                header("Location: hivebeetle.php?loginsuccess");
-                exit();
-            }
-        } else {
-            header("Location: hivebeetle.php?loginfailed");
-            exit();
-        }
-    }
-}
-
-function userLogout() {
-    if (isset($_POST['logoutSubmit'])) {
-        session_start();
-        session_destroy();
-        header("Location: hivebeetle.php");
-        exit();
-    }
-}
-*/
+    

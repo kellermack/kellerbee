@@ -1,10 +1,14 @@
+<?php
+    session_start();
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
     <title>Keller Bee</title>
 </head>
@@ -15,20 +19,26 @@
             <h6>It's the place to Bee</h6>
         </div>
         <ul class="nav-links">
-            <li><a href="donate.html">Donate</a>
-            </li>
-            <li><a href="About.html">About</a>
-            </li>
-            <li><a href="Beeginner.php">Beeginners</a>
-            </li>
-            <li><a href="Resource.php">Resources</a>
-            </li>
-         <!--   <li><a href="login.php">Login</a>
-            </li> 
-            <li><a href="signup.php">Sign Up</a>  
-            </li> -->
-            <li><a href="Storepage.php">Store</a>
-            </li>
+            <li><a href="donate.html">Donate</a></li>
+            
+            <li><a href="About.html">About</a></li>
+           
+            <li><a href="Beeginner.php">Beeginners</a></li>
+            
+            <li><a href="Resource.php">Resources</a></li>
+            <?php
+              if (isset($_SESSION["useruid"])) {
+                   echo "<li><a href='logout.php'>Sign Up</a></li>";
+              }
+              else {
+                echo "<li><a href='signup.php'>Sign Up</a></li>";
+                echo "<li><a href='login.php'>Login</a></li>"; 
+            
+              }      
+              
+            ?>
+            <li><a href="Storepage.php">Store</a></li>
+            
         </ul>
         <div class="burger">
             <div class ="line1"></div>

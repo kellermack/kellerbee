@@ -1,21 +1,26 @@
-<?php
-
-?>
 
 
-<section class = "signup form-form">
+
+<section class = "signup-form">
     <h2>Sign Up</h2>
     <div class = "signup-form-form"
-    <form action = "includes/login.inc.php" method = "post"> </form>
-        <input type = "text" name = "name" placeholder = "Username/Email">
+    <form action = "Includes/login.inc.php" method = "post"> 
+        <input type = "text" name = "uid" placeholder = "Username/Email">
         <input type = "password" name = "pwd" placeholder = "Password">
         <button type = "submit" name = "submit">Login</button>
+        </form>
     </div>
-    </form>
+    <?php
+    if(isset($_GET["error"])) {
+        if($_GET["error"] == "emptyinput"){
+            echo "<p>Fill in All Fields</p>";
+        }
+        else if ($_GET["error"] == "wronglogin"){
+            echo "<p>Incorrect Login</p>";
+        }
+    }
+?>
 </section>
 
+<footer id="footer">&copy; Copyright 2021 kellerbee.com</footer>
 
-
-<?php
-    include 'footer.php';
-?>
